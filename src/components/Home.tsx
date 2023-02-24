@@ -49,7 +49,7 @@ const ArticleCard = () => {
                     </Card.Body>
                   </Card>
                 </Col>
-                <CardDetail id={elem.id} />
+                <CardDetail id={elem.id} key={i} />
               </>
             )
           })}

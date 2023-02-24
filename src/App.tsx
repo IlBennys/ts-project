@@ -18,7 +18,7 @@ function App() {
               </>
             }
           />
-          <Route path="/details/:id" element={<CardDetail />} />
+          <Route path="/:id" element={<CardDetail />} />
         </Routes>
       </div>
     </BrowserRouter>
